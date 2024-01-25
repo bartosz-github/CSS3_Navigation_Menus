@@ -24,3 +24,9 @@ ul {
     flex-wrap: wrap;
     text-align: center;
 }
+
+ul li {
+    /*text-decoration: none;*/ /* wrong property*/
+    list-style: none;
+}
+
