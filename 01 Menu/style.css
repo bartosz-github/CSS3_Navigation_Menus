@@ -50,3 +50,7 @@ a::before {
     transition: all 1s;
     transform-origin: left;
 }
+
+ul li a:hover::before {
+    transform: scaleX(1);
+}
