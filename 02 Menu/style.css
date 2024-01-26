@@ -70,6 +70,10 @@ li {
     transform: scale(1);
 }
 
+.list-items:hover {
+    color: #fff;
+}
+
 body {
     background-color: lightslategray;
 }
