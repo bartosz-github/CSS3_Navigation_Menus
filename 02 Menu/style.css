@@ -12,7 +12,11 @@
     font-family: sans-serif;
 }
 
-
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
 
 
 
