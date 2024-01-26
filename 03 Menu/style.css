@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background: #000;
+}
+
 ul {
     display: flex;
 }
@@ -20,7 +29,7 @@ ul li a {
     margin: 0 10px;
     position: relative;
     transition: all 0.5s;
-    
+
 }
 
 
