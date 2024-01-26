@@ -41,16 +41,17 @@ li {
     left: 0;
     width: 100%;
     height: 100%;
-    background: crimson;
+    /*background: crimson;*/
     opacity: 0;
     transform: scaleY(2);
     transition: 1s;
     border-top: 2px solid crimson;
     border-bottom: 2px solid crimson;
+    /*z-index: -1;*/
 }
 
 .list-items:hover::before {
-    transform: scaleY(1.2);
+    transform: scaleY(1.0);
     opacity: 1;
 }
 
